@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\3D Test OpenGL">
+      <UniqueIdentifier>{f0ce99ef-d06c-44b2-a48d-9601ac023aeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\3D Test OpenGL\vendor">
+      <UniqueIdentifier>{bbf9a446-7d2e-4423-800c-800c0e85aaf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\3D Test OpenGL\Utitlities">
+      <UniqueIdentifier>{d8761807-945b-4daf-8af7-1c02558b461c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\3D Test OpenGL\Shaders">
+      <UniqueIdentifier>{1601e41f-deac-4eb3-8552-502f7be44444}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\3D Test OpenGL\Render">
+      <UniqueIdentifier>{b3a85f1e-fdc1-4710-8176-d2b0a4d61343}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\3D Test OpenGL\Camera">
+      <UniqueIdentifier>{7449ad93-0bf6-4c21-a67d-769b713aedad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\3D Test OpenGL\vendor\imgui">
+      <UniqueIdentifier>{a75283d0-778e-4dfd-b52d-6f73080ed340}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\3D Test OpenGL\Objects">
+      <UniqueIdentifier>{b467cda6-06cf-4b07-a347-be9703925347}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{a62599a5-df70-4d9c-97ef-381063c7cf66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Music">
+      <UniqueIdentifier>{6d53a9c5-6ef9-4242-964a-3f18ac92033b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Textures">
+      <UniqueIdentifier>{2f75d313-63cf-4b98-bc97-8f729c7050b4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\3D Test OpenGL\3d_test.cpp">
+      <Filter>Source Files\3D Test OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="source\3D Test OpenGL\vendor\glad.c">
+      <Filter>Source Files\3D Test OpenGL\vendor</Filter>
+    </ClCompile>
+    <ClCompile Include="source\3D Test OpenGL\Utilities\shader.cpp">
+      <Filter>Source Files\3D Test OpenGL\Utitlities</Filter>
+    </ClCompile>
+    <ClCompile Include="source\3D Test OpenGL\Utilities\resource_manager.cpp">
+      <Filter>Source Files\3D Test OpenGL\Utitlities</Filter>
+    </ClCompile>
+    <ClCompile Include="source\3D Test OpenGL\Render\QuadRenderer.cpp">
+      <Filter>Source Files\3D Test OpenGL\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="source\3D Test OpenGL\Camera\camera.cpp">
+      <Filter>Source Files\3D Test OpenGL\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="source\3D Test OpenGL\Utilities\texture.cpp">
+      <Filter>Source Files\3D Test OpenGL\Utitlities</Filter>
+    </ClCompile>
+    <ClCompile Include="source\3D Test OpenGL\vendor\stb_image.cpp">
+      <Filter>Source Files\3D Test OpenGL\vendor</Filter>
+    </ClCompile>
+    <ClCompile Include="source\3D Test OpenGL\vendor\imgui\imgui_tables.cpp">
+      <Filter>Source Files\3D Test OpenGL\vendor\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="source\3D Test OpenGL\vendor\imgui\imgui_widgets.cpp">
+      <Filter>Source Files\3D Test OpenGL\vendor\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="source\3D Test OpenGL\vendor\imgui\imgui.cpp">
+      <Filter>Source Files\3D Test OpenGL\vendor\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="source\3D Test OpenGL\vendor\imgui\imgui_draw.cpp">
+      <Filter>Source Files\3D Test OpenGL\vendor\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="source\3D Test OpenGL\vendor\imgui\imgui_impl_glfw.cpp">
+      <Filter>Source Files\3D Test OpenGL\vendor\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="source\3D Test OpenGL\vendor\imgui\imgui_impl_opengl3.cpp">
+      <Filter>Source Files\3D Test OpenGL\vendor\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="source\3D Test OpenGL\Objects\tree_object.cpp">
+      <Filter>Source Files\3D Test OpenGL\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="source\3D Test OpenGL\Objects\player_object.cpp">
+      <Filter>Source Files\3D Test OpenGL\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="source\3D Test OpenGL\Utilities\collision_engine.cpp">
+      <Filter>Source Files\3D Test OpenGL\Utitlities</Filter>
+    </ClCompile>
+    <ClCompile Include="source\3D Test OpenGL\Objects\game_object.cpp">
+      <Filter>Source Files\3D Test OpenGL\Objects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\3D Test OpenGL\3d_test.h">
+      <Filter>Source Files\3D Test OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="source\3D Test OpenGL\Utilities\shader.h">
+      <Filter>Source Files\3D Test OpenGL\Utitlities</Filter>
+    </ClInclude>
+    <ClInclude Include="source\3D Test OpenGL\Utilities\resource_manager.h">
+      <Filter>Source Files\3D Test OpenGL\Utitlities</Filter>
+    </ClInclude>
+    <ClInclude Include="source\3D Test OpenGL\Render\QuadRenderer.h">
+      <Filter>Source Files\3D Test OpenGL\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="source\3D Test OpenGL\Camera\camera.h">
+      <Filter>Source Files\3D Test OpenGL\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="source\3D Test OpenGL\Utilities\texture.h">
+      <Filter>Source Files\3D Test OpenGL\Utitlities</Filter>
+    </ClInclude>
+    <ClInclude Include="source\3D Test OpenGL\vendor\stb_image.h">
+      <Filter>Source Files\3D Test OpenGL\vendor</Filter>
+    </ClInclude>
+    <ClInclude Include="source\3D Test OpenGL\vendor\imgui\imgui_impl_opengl3.h">
+      <Filter>Source Files\3D Test OpenGL\vendor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="source\3D Test OpenGL\vendor\imgui\imgui_impl_opengl3_loader.h">
+      <Filter>Source Files\3D Test OpenGL\vendor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="source\3D Test OpenGL\vendor\imgui\imgui_internal.h">
+      <Filter>Source Files\3D Test OpenGL\vendor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="source\3D Test OpenGL\vendor\imgui\imconfig.h">
+      <Filter>Source Files\3D Test OpenGL\vendor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="source\3D Test OpenGL\vendor\imgui\imgui.h">
+      <Filter>Source Files\3D Test OpenGL\vendor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="source\3D Test OpenGL\vendor\imgui\imgui_impl_glfw.h">
+      <Filter>Source Files\3D Test OpenGL\vendor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="source\3D Test OpenGL\vendor\imgui\imstb_rectpack.h">
+      <Filter>Source Files\3D Test OpenGL\vendor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="source\3D Test OpenGL\vendor\imgui\imstb_textedit.h">
+      <Filter>Source Files\3D Test OpenGL\vendor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="source\3D Test OpenGL\vendor\imgui\imstb_truetype.h">
+      <Filter>Source Files\3D Test OpenGL\vendor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="source\3D Test OpenGL\Objects\tree_object.h">
+      <Filter>Source Files\3D Test OpenGL\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="source\3D Test OpenGL\Objects\player_object.h">
+      <Filter>Source Files\3D Test OpenGL\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="source\3D Test OpenGL\Utilities\collision_engine.h">
+      <Filter>Source Files\3D Test OpenGL\Utitlities</Filter>
+    </ClInclude>
+    <ClInclude Include="source\3D Test OpenGL\Objects\game_object.h">
+      <Filter>Source Files\3D Test OpenGL\Objects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="source\3D Test OpenGL\Shaders\vertex.glsl">
+      <Filter>Source Files\3D Test OpenGL\Shaders</Filter>
+    </None>
+    <None Include="source\3D Test OpenGL\Shaders\fragment.glsl">
+      <Filter>Source Files\3D Test OpenGL\Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="source\3D Test OpenGL\Textures\texture.jpg">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="source\3D Test OpenGL\Textures\texture_floor.jpg">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="source\3D Test OpenGL\Music\ost.mp3">
+      <Filter>Assets\Music</Filter>
+    </Media>
+  </ItemGroup>
+</Project>
